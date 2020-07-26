@@ -6,7 +6,7 @@ import (
 )
 
 type CalendarAuthService interface {
-	GetAuthUrl() (string, error)
+	GetAuthUrl() string
 	SaveAuthCode(lineId string, authCode string) (*oauth2.Token, error)
 	GetAuthToken(lineId string) (*oauth2.Token, error)
 	GetClient(lineId string) (*http.Client, error)
