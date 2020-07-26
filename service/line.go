@@ -5,7 +5,7 @@ import (
     "net/http"
 )
 
-func handleEvent(client *linebot.Client, callbackUrl string, handler func (client *linebot.Client, event *linebot.Event)) {
+func HandleLineEvent(client *linebot.Client, callbackUrl string, handler func (client *linebot.Client, event *linebot.Event)) {
     http.HandleFunc(callbackUrl, func(writer http.ResponseWriter, request *http.Request) {
         events, err := client.ParseRequest(request)
         if err != nil {

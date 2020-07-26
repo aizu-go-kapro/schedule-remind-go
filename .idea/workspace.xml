@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401600bc-4c1a-4fdc-a0f1-f60a04ab80da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/entity/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repoository/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/calendar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/line.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/schedule-remind-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/schedule-remind-go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
